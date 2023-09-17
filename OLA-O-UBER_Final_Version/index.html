@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>ola-O-uber</title>
+
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              ola-O-uber
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html"> About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html"> Services </a>
+                </li>
+              
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://raipur.gov.in/helpline/">Help</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.php">Driver Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class=" slider_section ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-7 ">
+            <div class="box">
+              <div class="detail-box">
+                <h4>
+                  Welcome to
+                </h4>
+                <h1>
+                  ola-O-uber
+                </h1>
+              </div>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                 
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+
+                    <div class="img-box">
+                     <h3>5 seater</h3> <img src="images/slider-img1.png" alt="1">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-box">
+                      <h3>5 seater</h3> <img src="images/slider-img2.png" alt="2">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="img-box">
+                      <h3>7 seater</h3> <img src="images/slider-img3.png" alt="3">
+                    </div>
+                  </div>
+                 
+                  
+                </div>
+              </div>
+
+              
+
+
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5 ">
+            <div class="slider_form">
+              <h4>
+                Get A Taxi Now
+              </h4>
+              <form action="form.php" method="POST">
+                <input type="text" placeholder="Name" required name="name" >
+                
+                <select name="car_type" id="cars" style="width: 100%;
+                height: 40px;
+                border: none;
+                outline: none;
+                margin-bottom: 15px;
+                padding-left: 15px;"  >
+                  <option value="" disabled selected >Choose a Car Type </option>
+                  <option value="Sedan">Sedan</option>
+                  <option value="Hatchback">Hatchback</option>
+                  <option value="SUV">SUV</option>
+
+                </select>
+              
+                
+                <input type="text" placeholder="Pick Up Location" required name = "pickup_loc">
+                <input type="text" placeholder="Drop Location" required  name = "drop_loc">
+                <input type="email" placeholder="Your Email" required name= "email">
+                <div class="btm_input">
+                  <input type="text" placeholder="Your Phone Number" required name= "phoneno">
+                  <input type="submit" name="submit" id="submit" value="Submit" style="-webkit-box-flex: 1;
+                  -ms-flex: 1;
+                  flex: 1;
+                  min-width: 116px;
+                  border: none;
+                  outline: none;
+                  background-color: #f7c621;
+                  color: #000000;" >
+                  
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- end slider section -->
+  </div>
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-5 offset-lg-2 offset-md-1">
+          <div class="detail-box">
+            <h2>
+              About <br>
+              Taxi Company
+            </h2>
+            <p>
+              "Ola-O-Uber" is a taxi booking platform offering reliable and affordable transportation. We offer a range of options including cars, SUVs, premium vehicles, and bikes. Our drivers are highly trained and our technology ensures a safe, comfortable ride. We also offer specialized services such as corporate travel, airport transfers, and outstation trips. Customer safety and satisfaction are our top priority, with background checks and vehicle maintenance in place. Our 24/7 customer support team is always available to assist with any questions or concerns. At "Ola-O-Uber," we believe that everyone deserves to travel in comfort and aim to provide the best possible experience. Book your next ride with us and experience the difference!
+
+
+
+            </p>
+            <a href="about.html">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="images/about-img.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- service section -->
+
+  <section class="service_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Our <br>
+          Taxi Services
+        </h2>
+      </div>
+      <div class="service_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/delivery-man.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Private Driver
+            </h5>
+            <p>
+              Looking for a convenient and luxurious mode of transportation for your daily commutes or special occasions?
+            </p>
+            <a href="service.html">
+              Know More
+            </a>
+          </div>
+        </div>
+        
+        <div class="box">
+          <div class="img-box">
+            <img src="images/backpack.png" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Luggage Transfer
+            </h5>
+            <p>
+              Luggage Transfer is a game-changing service offered by our taxi booking app
+            </p>
+            <a href="service.html">
+              Know More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end service section -->
+
+ 
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          What <br>
+          Client <br>
+          Says
+        </h2>
+      </div>
+      <div class="client_container">
+        <div class="carousel-wrap ">
+          <div class="owl-carousel">
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <img src="images/client-1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h3>
+                   Shubham
+                  </h3>
+                  <p>
+                    "The taxi booking app is user-friendly, convenient, and reliable. Prompt pick-up and comfortable rides every time."
+                  </p>
+                  <img src="images/quote.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <img src="images/client-2.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h3>
+                    Eshita
+                  </h3>
+                  <p>
+The taxi booking app is convenient, user-friendly and offers reliable and efficient transportation services. Highly recommended!      
+                 </p>
+                  <img src="images/quote.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <img src="images/client-3.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h3>
+                    Riya
+                  </h3>
+                  <p>
+The taxi booking app is convenient, user-friendly and offers reliable and efficient transportation services. Highly recommended!      
+                 </p>
+                  <img src="images/quote.png" alt="">
+                </div>
+              </div>
+            </div><div class="item">
+              <div class="box">
+                <div class="img-box">
+                  <img src="images/client-4.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h3>
+                   Aryan
+                  </h3>
+                  <p>
+The taxi booking app is convenient, user-friendly and offers reliable and efficient transportation services. Highly recommended!      
+                 </p>
+                  <img src="images/quote.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <!-- contact section -->
+
+  <section class="contact_section layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Any Problems <br>
+          Any Questions
+        </h2>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5  offset-md-1">
+          <div class="contact_form">
+            <h4>
+              Get In touch
+            </h4>
+            <form action="contact.php" method="POST">
+              <input type="text" placeholder="Name" name="name">
+              <input type="text" placeholder="Phone Number" name="phoneno"> >
+              <input type="text" placeholder="Message" class="message_input" name="message"> 
+              <input type="submit" name="submit" id="submit" value="Submit" style="-webkit-box-flex: 1;
+              -ms-flex: 1;
+              flex: 1;
+              min-width: 116px;
+              border: none;
+              outline: none;
+              background-color: #f7c621;
+              color: #000000;" >
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6 px-0">
+          <div class="img-box">
+            <img src="images/contact-img.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+
+ 
+
+
+  <!-- why section -->
+
+  <section class="why_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Why <br>
+          Choose Us
+        </h2>
+      </div>
+      <div class="why_container">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/delivery-man-white.png" alt="" class="img-1">
+            <img src="images/delivery-man-black.png" alt="" class="img-2">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Best Drivers
+            </h5>
+            <p>
+              Our drivers are experienced, friendly, and committed to providing a safe and comfortable ride.            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/shield-white.png" alt="" class="img-1">
+            <img src="images/shield-black.png" alt="" class="img-2">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Safe and Secure
+            </h5>
+            <p>
+              Our vehicles are well-maintained and equipped with the latest safety features, ensuring a secure ride.            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/repairing-service-white.png" alt="" class="img-1">
+            <img src="images/repairing-service-black.png" alt="" class="img-2">
+          </div>
+          <div class="detail-box">
+            <h5>
+              24x7 support
+            </h5>
+            <p>
+              Our dedicated support team is available around the clock to assist you with any questions or concerns.            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end why section -->
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding-top layout_padding2-bottom">
+    <div class="container">
+      <div class="box">
+        <div class="info_form">
+          <h4>
+            Subscribe Our Newsletter
+          </h4>
+          <form action="newsletter.php" method="post">
+            <input type="email" placeholder="Enter your email" name="email">
+            <input type="submit" name="submit" id="submit" value="Submit" style="-webkit-box-flex: 1;
+                  -ms-flex: 1;
+                  flex: 1;
+                  min-width: 116px;
+                  border: none;
+                  outline: none;
+                  background-color: #f7c621;
+                  color: #000000;" >
+          </form>
+        </div>
+        <div class="info_links">
+          <ul>
+            <li class=" ">
+              <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="">
+              <a class="" href="about.html"> About</a>
+            </li>
+            <li class="">
+              <a class="" href="service.html"> Services </a>
+            </li>
+            
+            <li class="">
+              <a class="" href="contact.html">Contact Us</a>
+            </li>
+            <li class="">
+              <a class="" href="login.php">Driver Login</a>
+            </li>
+          </ul>
+        </div>
+        <div class="info_social">
+          <div>
+            <a href="">
+              <img src="images/fb.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="images/twitter.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="images/linkedin.png" alt="">
+            </a>
+          </div>
+          <div>
+            <a href="">
+              <img src="images/instagram.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <div class="container">
+      <p>
+        &copy; 2023 All Rights Reserved by IIIT Naya Raipur
+      </p>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+
+
+  <!-- owl carousel script -->
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 20,
+      navText: [],
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1000: {
+          items: 2
+        }
+      }
+    });
+  </script>
+  <!-- end owl carousel script -->
+
+</body>
+
+</html>
